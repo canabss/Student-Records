@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.navbar{ 
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #6F37A7 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#logo{
+    width: 250px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+.card-header .row{
+    display: flex; 
+    justify-content: space-between;
+}
+.add-button{
+    background-color: #6F37A7;
+    border:#6F37A7;
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.add-button:hover{
+    background-color: #6F37A7;
+    border:#6F37A7;
+    opacity: 80%;
+}
+.table-title, .title{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 900;
+}
+#table tbody td, #table thead th{
+    vertical-align: middle;
+}
+.action-button{
+    margin-top: 5px;
+    width: 150px;
+}
+#card{
+    border-radius: 25px;
+}
+.footer-button{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-button a, .footer-button button{
+    background-color: #6F37A7;
+    border:#6F37A7;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 100;
+}
+.footer-button a:hover, .footer-button button:hover{
+    background-color: #6F37A7;
+    border:#6F37A7;
+    opacity: 80%;
+}
